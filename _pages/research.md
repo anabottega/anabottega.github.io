@@ -34,6 +34,8 @@ Payroll Taxes, Trade, and Wages
 
 ## Dormant Projects
 
-[Market Concentration and Technological Change: a Tale of Two Firms](https://anabottega.github.io/files/bottega_2020.pdf) 
+[Market Concentration and Technological Change: a Tale of Two Firms](https://anabottega.github.io/files/bottega_2020.pdf)  
+*Additional paper of Thesis presented to the Department of Economics at UFMG for Masters' Degree under supervision of Professor Rafael S. M. Ribeiro* 
 
-[Solutions for Delay Differential Equations in Business Cycle Macroeconomic Models](https://anabottega.github.io/files/bottega_2018.pdf)
+[Solutions for Delay Differential Equations in Business Cycle Macroeconomic Models](https://anabottega.github.io/files/bottega_2018.pdf)  
+*Paper presented to the Departments of Mathematics and Economics at UFMG a part of the activities of the "PET" Undergraduate Independent Research Program under supervision of Professor Sylvie Oliffson Kamphorst*
