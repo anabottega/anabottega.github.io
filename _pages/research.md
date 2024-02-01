@@ -34,6 +34,6 @@ Payroll Taxes, Trade, and Wages
 
 ## Dormant Projects
 
-[Solutions for delay differential equations in business cycle macroeconomic models](https://anabottega.github.io/files/bottega_2018.pdf)
+[Market Concentration and Technological Change: a Tale of Two Firms](https://anabottega.github.io/files/bottega_2020.pdf) 
 
-[A Tale of Two-Firms](https://anabottega.github.io/files/bottega_2020.pdf) 
+[Solutions for Delay Differential Equations in Business Cycle Macroeconomic Models](https://anabottega.github.io/files/bottega_2018.pdf)
