@@ -7,7 +7,9 @@ author_profile: true
 
 ## Work in Progress
 
-Progressivity and Distortions of Taxes and Transfers in Brazil (with João Francisco Cabral, Pedro Forquesato, and Fabiana Rocha)
+Progressivity and Distortions of Taxes and Transfers in Brazil (with João Francisco Cabral, Pedro Forquesato, Fabiana Rocha, and Hiaman Santos)
+
+BRASMOD: a tax-benefit open-access microsimulation model for Brazil (with João Francisco Cabral, Pedro Forquesato, Fabiana Rocha, and Hiaman Santos). See [BRASMOD website](https://joaofranciscocp.github.io/BRASMOD/). 
 
 Payroll Taxes, Trade, and Wages
 
@@ -18,7 +20,6 @@ Payroll Taxes, Trade, and Wages
 
 [Quanto Fica com as Mulheres Negras? Uma Análise da Distribuição de Renda no Brasil](https://madeusp.com.br/publicacoes/artigos/quanto-fica-com-as-mulheres-negras-uma-analise-da-distribuicao-de-renda-no-brasil/) (with Isabela Bouza, Matias Cardomingo, Luiza Pires, and Fernanda Pereira), 2021, MADE/USP NPE n. 018.  
 *Media coverage:* [Folha de S. Paulo](https://www1.folha.uol.com.br/mercado/2021/12/705-mil-homens-brancos-tem-renda-maior-que-a-de-todas-as-mulheres-negras.shtml), [Correio Brasiliense](https://www.correiobraziliense.com.br/economia/2021/12/4970921-1-dos-homens-brancos-ricos-recebem-mais-que-todas-mulheres-negras-do-brasil.html)
-
 
 [A Proposta de Reforma Tributária para o Imposto de Renda de Pessoa Física e seus Efeitos na Desigualdade](https://madeusp.com.br/publicacoes/artigos/a-proposta-de-reforma-tributaria-para-o-imposto-de-renda-da-pessoa-fisica-e-seus-efeitos-na-desigualdade) (with Rodrigo Orair, Fernando Gaiger, Laura Carvalho, Matias Cardomingo, Rodrigo Fernandes, and Theo Ribas), 2021, Made/USP NPE n. 15.  
 *Media coverage:* [Folha de S. Paulo](https://www1.folha.uol.com.br/mercado/2021/09/reforma-do-ir-deve-ter-efeito-quase-nulo-na-reducao-da-desigualdade-diz-estudo.shtml)
