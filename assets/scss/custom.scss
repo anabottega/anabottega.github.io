@@ -1,0 +1,44 @@
+.avatar {
+  border-radius: 0 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  color: #222;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* 🎨 Color Styling */
+a {
+  color: #5e4b8b;  /* Indigo */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e3b23c;  /* Gold */
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #5e4b8b !important;  /* Indigo */
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #e3b23c !important;  /* Gold */
+}
+
+/* Optional: Section headers or dividers */
+.section-heading h1, .section-heading h2 {
+  color: #5e4b8b;
+  border-bottom: 2px solid #e3b23c;
+}
