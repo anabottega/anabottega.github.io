@@ -20,3 +20,16 @@ $header-font-family:  "Playfair Display", serif !default;
 /* 4  ▸  Minor tweaks (optional) */
 .site-title   { font-weight: 600; }      // beef up nav title
 .page__title  { margin-top: 0; }         // tighten top spacing
+
+/* ─── Make the avatar a rectangle instead of a circle ───────── */
+.author__avatar img {
+  border-radius: 0 !important;   /* 0 = sharp corners                            */
+  width: 210px !important;       /* pick any fixed or max-width you prefer       */
+  height: auto !important;       /* keep aspect-ratio                            */
+  box-shadow: none;              /* optional: remove the default soft shadow     */
+}
+
+/* Optional: centre it under the name when the sidebar is hidden */
+.author__avatar {
+  text-align: left;              /* or center / right                            */
+}
