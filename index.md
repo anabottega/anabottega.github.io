@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Ana Bottega"
+title: ""
 author_profile: false
 classes: home-hero
 ---
