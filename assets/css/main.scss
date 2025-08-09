@@ -5,8 +5,8 @@
 /* your variable overrides BEFORE imports */
 $link-color: #5e4b8b;
 $link-color-hover: #e3b23c;
-$global-font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-$header-font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+$global-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+$header-font-family: $global-font-family; // headings now match body
 
 /* theme imports */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
