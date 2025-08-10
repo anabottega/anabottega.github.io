@@ -19,27 +19,20 @@ $header-font-family: $global-font-family; // headings now match body
 .home-hero .page { max-width: 1120px; }
 .home-hero .page__inner-wrap { padding-top: 12px; }
 
-/* Two-column hero */
-.hero-wrap.side-by-side {
-  display: grid;
-  grid-template-columns: 320px 1fr; /* photo, then text */
-  gap: 48px;
-  align-items: start;
-  margin: 0 auto;
+.hero-wrap {
+  display: flex;
+  align-items: flex-start; /* keeps them aligned at the top */
+  gap: 2rem; /* space between photo and text */
 }
 
-/* Photo */
 .hero-photo {
-  width: 320px;
-  height: auto;
-  border-radius: 0;
-  object-fit: cover;
-  box-shadow: none;
+  flex: 0 0 30%; /* photo gets 30% of width */
+  max-width: 250px; /* optional cap */
 }
 
-/* Text column */
-.hero-bio { text-align: left; }
-.hero-bio p { font-size: 1.035rem; line-height: 1.65; max-width: 62ch; }
+.hero-bio {
+  flex: 1; /* text takes the rest */
+}
 
 /* Link “boxes” */
 .link-boxes { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
