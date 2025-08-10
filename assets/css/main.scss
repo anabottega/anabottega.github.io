@@ -12,43 +12,84 @@ $header-font-family: $global-font-family; // headings now match body
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* your rules AFTER imports */
-.author__avatar img { border-radius: 0 !important; }
-
-/* Page width + top spacing */
-.home-hero .page { max-width: 1120px; }
+/* --- HOMEPAGE HERO (flex, wide text column) --- */
+.home-hero .page { max-width: 1200px; }
 .home-hero .page__inner-wrap { padding-top: 12px; }
 
 .hero-wrap {
   display: flex;
-  align-items: flex-start; /* keeps them aligned at the top */
-  gap: 2rem; /* space between photo and text */
+  align-items: flex-start;   /* top-align photo + text */
+  gap: 48px;                 /* space between columns */
+  margin: 0 auto;
 }
 
+/* Image column: fixed width so text gets the rest */
 .hero-photo {
-  flex: 0 0 30%; /* photo gets 30% of width */
-  max-width: 250px; /* optional cap */
+  flex: 0 0 300px;           /* 300px column for photo */
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
 }
 
+/* Text column: fills remaining width */
 .hero-bio {
-  flex: 1; /* text takes the rest */
+  flex: 1;
+  max-width: 70ch;           /* comfortable reading width */
+  text-align: left;
+}
+.hero-bio p {
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+/* Link boxes: text-y by default, yellow border on hover */
+.link-boxes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
 }
 
-/* Link “boxes” */
-.link-boxes { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
 .link-boxes .box {
-  padding: 10px 16px;
-  border: 1px solid #e6e6e6;
-  border-radius: 12px;
+  background: none;
+  border: none;          /* no border normally */
+  padding: 6px 10px;     /* keep some padding so hover doesn't jump */
   font-weight: 600;
+  color: $link-color;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.link-boxes .box:hover {
+  color: $link-color-hover;
+  border: 1px solid $link-color-hover;  /* yellow outline on hover */
+  border-radius: 6px;
   text-decoration: none;
 }
 
-/* Mobile stack */
-@media (max-width: 720px) {
-  .hero-wrap.side-by-side { grid-template-columns: 1fr; gap: 24px; }
+/* Contact info style */
+.contact-info {
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+.contact-info a {
+  color: $link-color;
+  text-decoration: none;
+  padding: 4px 8px;
+  transition: all 0.2s ease-in-out;
+}
+.contact-info a:hover {
+  color: $link-color-hover;
+  border: 1px solid $link-color-hover;
+  border-radius: 6px;
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 900px) {
+  .hero-wrap { flex-direction: column; gap: 24px; }
   .hero-photo { width: 100%; max-width: 420px; margin: 0 auto; }
-  .hero-bio { text-align: center; }
+  .hero-bio { text-align: center; margin: 0 auto; }
   .hero-bio p { margin-left: auto; margin-right: auto; }
   .link-boxes { justify-content: center; }
 }
+

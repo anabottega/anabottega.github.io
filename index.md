@@ -18,5 +18,16 @@ classes: home-hero
       <a class="box" href="https://www.linkedin.com/in/anabottega" target="_blank" rel="noopener">LinkedIn</a>
       <a class="box" href="https://github.com/anabottega" target="_blank" rel="noopener">GitHub</a>
     </div>
+
+    <div class="link-boxes">
+      <a class="box" href="{{ '/assets/Ana_Bottega_CV.pdf' | relative_url }}">CV</a>
+      <a class="box" href="https://www.linkedin.com/in/anabottega" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="box" href="https://github.com/anabottega" target="_blank" rel="noopener">GitHub</a>
+    </div>
+
+    <div class="contact-info">
+      <a href="mailto:anabottegalima@gmail.com">anabottegalima@gmail.com</a> &nbsp;|&nbsp;
+      <a href="{{ '/assets/Ana_Bottega_CV.pdf' | relative_url }}">CV</a>
+    </div>
   </div>
 </div>
