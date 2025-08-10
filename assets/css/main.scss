@@ -35,7 +35,7 @@ $header-font-family: $global-font-family; // headings now match body
 /* Text column: fills remaining width */
 .hero-bio {
   flex: 1;
-  max-width: 70ch;           /* comfortable reading width */
+  max-width: 200ch;           /* comfortable reading width */
   text-align: left;
 }
 .hero-bio p {
