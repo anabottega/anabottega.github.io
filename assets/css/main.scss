@@ -12,36 +12,21 @@ $header-font-family: $global-font-family; // headings now match body
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* --- HOMEPAGE HERO (flex, wide text column) --- */
-.home-hero .page { max-width: 1200px; }
-.home-hero .page__inner-wrap { padding-top: 12px; }
+/* Make the single-page content wider on the home */
+.home-hero .page { max-width: 1280px; }              /* wider container */
+.home-hero .page__inner-wrap { padding-top: 8px; }
 
-.hero-wrap {
-  display: flex;
-  align-items: flex-start;   /* top-align photo + text */
-  gap: 48px;                 /* space between columns */
-  margin: 0 auto;
-}
+/* Hero layout: give more to text, a bit less to the photo */
+.hero-wrap { gap: 56px; }
 
-/* Image column: fixed width so text gets the rest */
 .hero-photo {
-  flex: 0 0 300px;           /* 300px column for photo */
-  width: 300px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 0;
+  flex: 0 0 280px;   /* was 300px */
+  width: 280px;
 }
-
-/* Text column: fills remaining width */
 .hero-bio {
   flex: 1;
-  max-width: 200ch;           /* comfortable reading width */
-  text-align: left;
-}
-.hero-bio p {
-  font-size: 1.02rem;
-  line-height: 1.65;
-}
+  max-width: 80ch;   /* was 70ch; increase reading width */
+
 /* Link boxes: text-y by default, yellow border on hover */
 .link-boxes {
   display: flex;
@@ -93,3 +78,4 @@ $header-font-family: $global-font-family; // headings now match body
   .link-boxes { justify-content: center; }
 }
 
+.page__footer-follow { display: none !important; }  /* hides "FOLLOW: FEED" row */
