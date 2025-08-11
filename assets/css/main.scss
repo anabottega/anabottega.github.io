@@ -49,9 +49,6 @@ $header-font-family: $global-font-family; // headings now match body
   display: block;
 }
 
-.hero-two-col > .hero-bio { min-width: 0; max-width: 90ch; }
-.hero-two-col > .hero-bio p { font-size: 1.02rem; line-height: 1.65; }
-
 /* Mobile */
 @media (max-width: 900px) {
   .hero-two-col {
@@ -63,4 +60,62 @@ $header-font-family: $global-font-family; // headings now match body
     margin: 0 auto;
   }
   .hero-two-col > .hero-bio { text-align: center; }
+}
+
+/* Hero text sizing + rhythm */
+.hero-two-col > .hero-bio {
+  min-width: 0;
+  max-width: 90ch;
+  font-size: 0.98rem;
+  line-height: 1.58;
+}
+@media (max-width: 900px) {
+  .hero-two-col > .hero-bio {
+    font-size: 1.02rem;
+    line-height: 1.62;
+  }
+}
+
+/* Link boxes with icons + yellow hover border */
+.link-boxes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.link-boxes .box {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-weight: 600;
+  color: $link-color;                /* your purple */
+  text-decoration: none;
+  transition: border-color .2s, color .2s;
+}
+.link-boxes .box i { font-size: 0.95em; line-height: 1; }
+
+.link-boxes .box:hover,
+.link-boxes .box:focus {
+  color: $link-color-hover;          /* your yellow */
+  border-color: $link-color-hover;   /* yellow outline on hover */
+  outline: none;                     /* let the border be the cue */
+}
+
+/* Contact line hover to match */
+.contact-info a {
+  color: $link-color;
+  text-decoration: none;
+  padding: 4px 8px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  transition: border-color .2s, color .2s;
+}
+.contact-info a:hover,
+.contact-info a:focus {
+  color: $link-color-hover;
+  border-color: $link-color-hover;
+  outline: none;
 }

@@ -14,13 +14,18 @@ classes: home-hero
   <p>I currently work as a consultant to the IDB/BR fiscal team and the UNDP/NY gender team. My (extensive) experience with international organizations on tax policy includes serving as advisor to the international taxation agenda of the G20 Presidency at Brazil’s Federal Ministry of Finance in 2024.</p>
 
     <div class="link-boxes">
-      <a class="box" href="https://www.linkedin.com/in/anabottega" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="box" href="https://github.com/anabottega" target="_blank" rel="noopener">GitHub</a>
-    </div>
-
-    <div class="contact-info">
-      <a href="mailto:anabottegalima@gmail.com">anabottegalima@gmail.com</a> &nbsp;|&nbsp;
-      <a href="{{ '/assets/Ana_Bottega_CV.pdf' | relative_url }}">CV</a>
-    </div>
+  <a class="box" href="mailto:anabottegalima@gmail.com">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+  <a class="box" href="{{ '/assets/Ana_Bottega_CV.pdf' | relative_url }}">
+    <i class="fas fa-file-alt"></i> CV
+  </a>
+   <a class="box" href="www.linkedin.com/in/ana-bottega-a05629348" target="_blank" rel="noopener">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+  <a class="box" href="https://github.com/anabottega" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+</div>
   </div>
 </div>
