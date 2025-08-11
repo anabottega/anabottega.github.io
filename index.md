@@ -5,7 +5,7 @@ author_profile: false
 classes: home-hero
 ---
 
-<div class="hero-wrap side-by-side">
+<div class="hero-two-col">
   <img class="hero-photo" src="{{ '/assets/images/cv_photo_2025.jpg' | relative_url }}" alt="Ana Bottega">
 
   <div class="hero-bio">
