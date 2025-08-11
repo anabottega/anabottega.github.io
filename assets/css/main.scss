@@ -16,63 +16,61 @@ $header-font-family: $global-font-family; // headings now match body
 .home-hero .page { max-width: 1360px; }   /* try 1360; can go 1280–1440 */
 .home-hero .page__inner-wrap { padding-top: 8px; }
 
-/* Give more space to text, less to photo */
-.hero-wrap { gap: 56px; }
-.hero-photo {
-  flex: 0 0 260px;   /* narrower image column */
-  width: 260px;
-}
-.hero-bio {
-  flex: 1;
-  max-width: 88ch;   /* allow a wider reading column */
-}
-/* Link boxes: text-y by default, yellow border on hover */
-.link-boxes {
+.home-hero .page .page__content > .hero-wrap {
   display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 12px;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 56px;
+  margin: 0 auto;
 }
 
+/* Image column */
+.home-hero .hero-wrap > img.hero-photo {
+  flex: 0 0 260px;
+  width: 260px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+  margin: 0; /* kill any theme img margins */
+}
+
+/* Text column */
+.home-hero .hero-wrap > .hero-bio {
+  flex: 1;
+  min-width: 0;
+  max-width: 88ch;
+  text-align: left;
+}
+.home-hero .hero-bio p { font-size: 1.02rem; line-height: 1.65; }
+
+
+/* Link boxes (yellow hover outline) */
+.link-boxes {
+  display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px;
+}
 .link-boxes .box {
-  background: none;
-  border: none;          /* no border normally */
-  padding: 6px 10px;     /* keep some padding so hover doesn't jump */
-  font-weight: 600;
-  color: $link-color;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
+  background: none; border: none; padding: 6px 10px;
+  font-weight: 600; color: $link-color; text-decoration: none;
+  transition: all .2s ease-in-out;
 }
-
 .link-boxes .box:hover {
-  color: $link-color-hover;
-  border: 1px solid $link-color-hover;  /* yellow outline on hover */
-  border-radius: 6px;
-  text-decoration: none;
+  color: $link-color-hover; border: 1px solid $link-color-hover; border-radius: 6px;
 }
 
-/* Contact info style */
-.contact-info {
-  margin-top: 16px;
-  font-size: 0.95rem;
-}
-.contact-info a {
-  color: $link-color;
-  text-decoration: none;
-  padding: 4px 8px;
-  transition: all 0.2s ease-in-out;
-}
-.contact-info a:hover {
-  color: $link-color-hover;
-  border: 1px solid $link-color-hover;
-  border-radius: 6px;
-}
+/* Contact line hover match */
+.contact-info { margin-top: 16px; font-size: .95rem; }
+.contact-info a { color: $link-color; text-decoration: none; padding: 4px 8px; transition: all .2s; }
+.contact-info a:hover { color: $link-color-hover; border: 1px solid $link-color-hover; border-radius: 6px; }
 
-/* Mobile: stack vertically */
+/* Stack on mobile */
 @media (max-width: 900px) {
-  .hero-wrap { flex-direction: column; gap: 24px; }
-  .hero-photo { width: 100%; max-width: 420px; margin: 0 auto; }
-  .hero-bio { text-align: center; margin: 0 auto; }
-  .hero-bio p { margin-left: auto; margin-right: auto; }
+  .home-hero .page .page__content > .hero-wrap {
+    flex-direction: column; gap: 24px;
+  }
+  .home-hero .hero-wrap > img.hero-photo {
+    width: 100%; max-width: 420px; margin: 0 auto;
+  }
+  .home-hero .hero-bio { text-align: center; margin: 0 auto; }
+  .home-hero .hero-bio p { margin-left: auto; margin-right: auto; }
   .link-boxes { justify-content: center; }
 }
