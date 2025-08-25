@@ -120,3 +120,34 @@ $header-font-family: $global-font-family; // headings now match body
   border-color: $link-color-hover;
   outline: none;
 }
+
+/* Make paper list items neat */
+.paper-list {
+  list-style-type: disc; /* gives bullet points */
+  margin-left: 1.5rem;
+  padding-left: 0;
+}
+
+.paper {
+  margin-bottom: 1.2rem;
+}
+
+/* Titles as regular text (not bold) */
+.paper-title {
+  font-weight: normal;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+/* Abstract toggle styling */
+.abs summary {
+  cursor: pointer;
+  font-style: italic;
+  color: #444;
+  outline: none;
+}
+
+/* Make the arrow more delicate */
+.abs summary::-webkit-details-marker {
+  font-size: 0.8rem; /* smaller arrow */
+}

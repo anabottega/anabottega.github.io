@@ -6,38 +6,29 @@ permalink: /research/
 
 ## Work in Progress
 
-<div class="paper">
-  <h3>Willingness to Pay for Tax Simplicity: Evidence from Norway's PAYE, with Qquillaccori García López</h3>
-  <div class="paper-meta">
-    <a class="pill" href="#" target="_blank" rel="noopener">Paper</a>
-    <a class="pill" href="#" target="_blank" rel="noopener">Slides</a>
-    <a class="pill" href="#" target="_blank" rel="noopener">Code</a>
-    <a class="pill" href="#" target="_blank" rel="noopener">Materials</a>
-  </div>
-  <details class="abs">
-    <summary>Abstract</summary>
-    <p>Short abstract goes here. One or two paragraphs describing the PAYE design, identification, and main results.</p>
-  </details>
-</div>
+<ul class="paper-list">
 
-<div class="paper">
-  <h3>Export-oriented tax reforms: evidence from Brazil</h3>
-  <div class="paper-meta">
-    <a class="pill" href="#" target="_blank" rel="noopener">Paper</a>
-    <a class="pill" href="#" target="_blank" rel="noopener">Slides</a>
-    <a class="pill" href="#" target="_blank" rel="noopener">Code</a>
-  </div>
-  <details class="abs">
-    <summary>Abstract</summary>
-    <p>Brief abstract here.</p>
-  </details>
-</div>
+  <li class="paper">
+    <span class="paper-title">
+      Willingness to Pay for Tax Simplicity: Evidence from Norway's PAYE, with Qquillaccori García López [Slides available under request]
+    </span>
+    <details class="abs">
+      <summary>Abstract</summary>
+      <p>This paper studies the behavioral impact of simplifying tax compliance for recent migrants by examining the introduction of Norway’s “Pay-As-You-Earn” (PAYE) regime. Beginning in 2019, eligible foreign workers could opt into a flat 25\% withholding tax that eliminated the need to file a return. Using linked administrative microdata and simulated counterfactual tax liabilities, we evaluate how this simplification affected tax burdens, take-up behavior, and revealed preferences. We find that PAYE compressed the distribution of effective tax rates, reducing heterogeneity and increasing average tax liabilities. Moreover, the scheme raised taxes for many low- and middle-income earners relative to the ordinary system, making the reform regressive compared to the baseline regime. We then use this reform to estimate migrant taxpayers' willingness to pay for tax simplicity. The results show that nearly half of PAYE adopters overpaid, revealing an average willingness to pay of 7,500 NOK (1.8\% of annual income) for simplification, equivalent to a 2.42 percentage point higher tax rate. These results provide revealed-preference estimates of the value individuals place on simplicity in a real-world tax setting. Our findings underscore the distributional and behavioral consequences of simplifying tax policy for migrants, and highlight how administrative reforms can shape behavior beyond traditional price margins.</p>
+    </details>
+  </li>
+
+  <li class="paper">
+    <span class="paper-title">
+      Export-oriented tax reforms: evidence from Brazil
+    </span>
+  </li>
+
+</ul>
 
 ---
 
 ## Policy Work 
-
-### Applied Policy Work 
 
 <div class="paper">
   <h3>BRASMOD — Brazil’s tax-benefit microsimulation model</h3>
@@ -50,8 +41,6 @@ permalink: /research/
     <a href="https://github.com/brasmod/brasmod_main/blob/main/assets/reports/BRASMODv1.0_Country_Report_2024.pdf" target="_blank" rel="noopener">country report (PDF)</a>.
   </p>
 </div>
-
----
 
 ### Policy Briefs (in Portuguese)
 
@@ -67,6 +56,7 @@ permalink: /research/
   with Rodrigo Orair, Fernando Gaiger, Laura Carvalho, Matias Cardomingo, Rodrigo Fernandes, and Theo Ribas, 2021, MADE/USP NPE n. 015.  
   <em>Media coverage:</em> <a href="https://www1.folha.uol.com.br/mercado/2021/09/reforma-do-ir-deve-ter-efeito-quase-nulo-na-reducao-da-desigualdade-diz-estudo.shtml" target="_blank" rel="noopener">Folha</a>
 
+  ---
 
 ## Pre-Doctoral Publications
 
