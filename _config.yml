@@ -24,7 +24,7 @@ name                     : "Ana Bottega"
 description              : "Economist | Researcher | Policy Consultant"
 url                      : "https://anabottega.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : anabottega/anabottega.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -68,7 +68,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : false
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -218,11 +218,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: /assets/css/_custom.scss
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
@@ -257,7 +255,6 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-remote-theme     # <-- required when using `remote_theme:`
   - jekyll-include-cache
   - jekyll-seo-tag          # nice to have
   - jekyll-sitemap
