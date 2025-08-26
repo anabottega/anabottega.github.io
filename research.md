@@ -7,6 +7,7 @@ permalink: /research/
 ## Work in Progress
 
 - Willingness to Pay for Tax Simplicity: Evidence from Norway's Pay-As-You-Earn Tax Scheme for Migrant Workers, with Qquillaccori García López — *slides available on request*
+
 - Export-oriented tax reforms: evidence from Brazil
 
 <hr class="section-divider">
@@ -41,6 +42,8 @@ and the
 ## Pre-Doctoral Publications
 
 - <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12423" target="_blank" rel="noopener">Kalecki Meets Schumpeter: The Decline of Competition in a Demand-led Dynamic Model</a>. with Rafael S. M. Ribeiro, <em>Metroeconomica</em>, 74:3, 584–605, 2023.
+
+- <a href="https://www.elgaronline.com/view/journals/roke/11/1/article-p10.xml" target="_blank" rel="noopener">Mind the wage gap: an empirical analysis of the impact of labour income inequality on economic growthe</a>, with Rebecca Gramiscelli Hasparyk and Rafael S. M. Ribeiro, <em>Review of Keynesian Economics</em>, 11:1, 10–29, 2023.
 
 - <a href="https://www.tandfonline.com/doi/full/10.1080/02692171.2022.2123910" target="_blank" rel="noopener">The Impact of Demand on Innovation and Research Intensity</a>, with João P. Romero and Arthur B. Cordeiro, <em>International Review of Applied Economics</em>, 37:2, 217–235, 2022.
 
