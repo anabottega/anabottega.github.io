@@ -14,6 +14,28 @@ $header-font-family: $global-font-family;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+body,
+.page .page__content {
+  color: #1a1a1a; /* Darker but softer than pure black */
+}
+
+.page .page__content h1,
+.page .page__content h2,
+.page .page__content h3 {
+  color: #111; /* Slightly darker for better contrast */
+}
+
+/* Force masthead + nav headings to use Source Serif 4 */
+.site-title,
+.site-title a,
+.masthead__title,
+.masthead__menu-item,
+.greedy-nav .visible-links a {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", Times, serif !important;
+  font-weight: 600; /* You can also try 500 for a lighter look */
+  color: #1a1a1a; /* Make it match your body text color */
+}
+
 /* --- WIDEN THE SINGLE PAGE CONTAINER (overrides theme clamps) --- */
 .layout--single .page,
 .layout--single .page__inner-wrap,
@@ -203,3 +225,4 @@ hr.section-divider {
   text-wrap: pretty;         /* nicer breaks on modern browsers */
   hyphens: auto;             /* let browsers hyphenate long words */
 }
+
