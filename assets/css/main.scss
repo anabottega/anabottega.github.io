@@ -121,16 +121,6 @@ $header-font-family: $global-font-family; // headings now match body
   outline: none;
 }
 
-/* Make paper list items neat */
-.paper-list {
-  list-style-type: disc; /* gives bullet points */
-  margin-left: 1.5rem;
-  padding-left: 0;
-}
-
-.paper {
-  margin-bottom: 1.2rem;
-}
 
 /* Titles as regular text (not bold) */
 .paper-title {
@@ -150,4 +140,45 @@ $header-font-family: $global-font-family; // headings now match body
 /* Make the arrow more delicate */
 .abs summary::-webkit-details-marker {
   font-size: 0.8rem; /* smaller arrow */
+}
+
+.page .page__content hr:not(.section-divider) {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 1.8rem 0;
+}
+
+/* Section divider: more evident but not loud */
+hr.section-divider {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, #5e4b8b 0%, #e3b23c 100%);
+  margin: 2.25rem 0 1.75rem;
+  opacity: 0.9;
+  border-radius: 2px;
+}
+
+/* Policy Work block: smooth paragraph rhythm */
+.paper p { margin: 0.4rem 0; }
+
+/* Subtle italic for “slides on request” text, not shouty */
+.muted { color: #555; font-style: italic; }
+
+
+
+.paper-list {
+  list-style: disc;
+  margin-left: 1.25rem;
+  padding-left: 0.25rem;
+}
+.paper-list .paper { margin: 0 0 0.85rem 0; }
+
+.page .page__content ul li { margin: 0.3rem 0; }
+
+.page .page__content h3 { font-weight: 400; }
+
+.hero-two-col > .hero-bio {
+  text-wrap: pretty;
+  hyphens: auto;
 }
