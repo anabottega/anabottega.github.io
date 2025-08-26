@@ -10,8 +10,6 @@ permalink: /research/
 
 - Export-oriented tax reforms: evidence from Brazil — *slides available on request*
 
-<hr class="section-divider">
-
 ## Policy Work 
 
 ### BRASMOD — Brazil’s tax-benefit microsimulation model
@@ -36,8 +34,6 @@ and the
 - <a href="https://madeusp.com.br/publicacoes/artigos/a-proposta-de-reforma-tributaria-para-o-imposto-de-renda-da-pessoa-fisica-e-seus-efeitos-na-desigualdade" target="_blank" rel="noopener">A Proposta de Reforma Tributária para o IRPF e seus Efeitos na Desigualdade</a><br>
   with Rodrigo Orair, Fernando Gaiger, Laura Carvalho, Matias Cardomingo, Rodrigo Fernandes, and Theo Ribas, 2021, MADE/USP NPE n. 015.  
   <em>Media coverage:</em> <a href="https://www1.folha.uol.com.br/mercado/2021/09/reforma-do-ir-deve-ter-efeito-quase-nulo-na-reducao-da-desigualdade-diz-estudo.shtml" target="_blank" rel="noopener">Folha</a>
-
-<hr class="section-divider">
 
 ## Pre-Doctoral Publications
 
