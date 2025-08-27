@@ -187,42 +187,64 @@ hr.section-divider {
 /* Subtle italic for “slides on request” text, not shouty */
 .muted { color: #555; font-style: italic; }
 
-.page .page__content ul li { margin: 0.3rem 0; }
+/* -------------------------------------------
+   TYPOGRAPHY & SPACING — ELEGANT + LESS ZOOMED-IN
+------------------------------------------- */
 
 /* Base scale: slightly smaller, comfortable line length */
 .page .page__content {
-  font-size: 0.97rem;        /* ~3% smaller site-wide */
-  line-height: 1.62;
-  letter-spacing: 0;         /* serifs don’t need extra tracking */
+  font-size: 0.94rem;       /* smaller and lighter */
+  line-height: 1.55;        /* tighter vertical rhythm */
+  letter-spacing: 0;        /* serifs don’t need extra tracking */
+  max-width: 70ch;          /* keeps line lengths readable */
+  margin-left: auto;
+  margin-right: auto;
+  text-wrap: pretty;        /* nicer breaks on modern browsers */
+  hyphens: auto;            /* allow soft hyphenation */
 }
 
-/* Headings: distinct scale + calmer weights */
-.page .page__content h1 { font-size: clamp(1.9rem, calc(2vw + 1.2rem), 2.35rem); font-weight: 600; margin-bottom: .6rem; }
-.page .page__content h2 { font-size: clamp(1.28rem, calc(1.2vw + 1rem), 1.55rem); font-weight: 600; }
-.page .page__content h3 { font-size: clamp(1.08rem, calc(0.7vw + 0.92rem), 1.2rem);  font-weight: 500; letter-spacing: .1px; margin-top: 1.1rem; margin-bottom: .55rem; }
+/* Headings: distinct, calmer, proportional */
+.page .page__content h1 {
+  font-size: clamp(1.75rem, calc(1.3rem + 1.6vw), 2.15rem);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
 
-/* Underline for H2 (subtle, matches your palette) */
 .page .page__content h2 {
+  font-size: clamp(1.18rem, calc(1rem + 0.9vw), 1.45rem);
+  font-weight: 600;
   position: relative;
-  padding-bottom: .28rem;
-  margin-bottom: .9rem;
+  padding-bottom: .2rem;   /* tighter underline spacing */
+  margin-bottom: 1.2rem;   /* better separation from text */
 }
+
+.page .page__content h3 {
+  font-size: clamp(1.02rem, calc(0.9rem + 0.6vw), 1.15rem);
+  font-weight: 500;
+  letter-spacing: .1px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Elegant gradient underline for H2 titles */
 .page .page__content h2::after {
   content: "";
-  position: absolute; left: 0; bottom: -2px;
-  width: 100%; height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0; /* underline hugs the title */
+  width: 100%;
+  height: 2px;
   background: linear-gradient(to right, #5e4b8b, #e3b23c);
-  opacity: .7; border-radius: 2px;
+  opacity: .7;
+  border-radius: 2px;
 }
 
 /* Paragraph and list rhythm */
-.page .page__content p { margin: 0.6rem 0; }
-.page .page__content ul li,
-.page .page__content ol li { margin: 0.22rem 0; }
-
-/* Fine typography niceties */
-.page .page__content {
-  text-wrap: pretty;         /* nicer breaks on modern browsers */
-  hyphens: auto;             /* let browsers hyphenate long words */
+.page .page__content p {
+  margin: 0.5rem 0;   /* slightly tighter paragraphs */
 }
 
+.page .page__content ul li,
+.page .page__content ol li {
+  margin: 0.15rem 0;  /* compact bullet spacing */
+}
