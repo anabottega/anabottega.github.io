@@ -253,6 +253,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-redirect-from   # ← add this
+
 
 # Archives
 #  Type

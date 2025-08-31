@@ -248,3 +248,6 @@ hr.section-divider {
 .page .page__content ol li {
   margin: 0.15rem 0;  /* compact bullet spacing */
 }
+
+html { scroll-behavior: smooth; }
+:target { scroll-margin-top: 80px; } /* adjust if your masthead is taller/shorter */
