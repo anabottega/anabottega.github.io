@@ -30,19 +30,17 @@ classes: home-hero
   </div>
 </div>
 
-<hr class="section-divider">
+<div id="research"></div>
 
-## <span id="research">Research</span>
-
-### Work in Progress
+## Work in Progress
 
 - Willingness to Pay for Tax Simplicity: Evidence from Norway's Pay-As-You-Earn Tax Scheme for Migrant Workers, with Qquillaccori García López — *slides available on request*
 
-- Export-oriented tax reforms: evidence from Brazil — *slides available on request*
+- Export-oriented Tax Reforms: Evidence from Brazil — *slides available on request*
 
-### Policy Work 
+## Policy Work 
 
-#### BRASMOD — Brazil’s tax-benefit microsimulation model
+### BRASMOD — Brazil’s tax-benefit microsimulation model
 
 I contributed to BRASMOD, a policy-oriented microsimulation model for Brazil used to assess tax-benefit reforms and distributional impacts.
 
@@ -51,7 +49,10 @@ To access the model and the accompanying country report, visit the
 and the
 [country report (PDF)](https://github.com/brasmod/brasmod_main/blob/main/assets/reports/BRASMODv1.0_Country_Report_2024.pdf){:target="_blank" rel="noopener"}.
 
-#### Policy Briefs (in Portuguese)
+### Policy Briefs (in Portuguese)
+
+- <a href="https://madeusp.com.br/publicacoes/artigos/npe-56-comparacoes-de-diferentes-programas-de-transferencia-de-renda-em-2020-aplicacoes-do-modelo-de-microssimulacao-brasmod/" target="_blank" rel="noopener">Comparações de diferentes programas de transferência de renda em 2020: aplicações do modelo de microssimulação BRASMOD</a><br>
+  with Hiaman Santos, 2024, MADE/USP NPE n. 056.  
 
 - <a href="https://madeusp.com.br/publicacoes/artigos/consideracoes-sobre-o-efeito-distributivo-e-a-perda-arrecadatoria-de-um-reajuste-da-tabela-do-irpf/" target="_blank" rel="noopener">Considerações sobre o Efeito Distributivo e a Perda Arrecadatória de um Reajuste da Tabela do IRPF</a><br>
   with Luiza Pires and Pedro Forquesato, 2023, MADE/USP NPE n. 023.  
@@ -65,11 +66,11 @@ and the
   with Rodrigo Orair, Fernando Gaiger, Laura Carvalho, Matias Cardomingo, Rodrigo Fernandes, and Theo Ribas, 2021, MADE/USP NPE n. 015.  
   <em>Media coverage:</em> <a href="https://www1.folha.uol.com.br/mercado/2021/09/reforma-do-ir-deve-ter-efeito-quase-nulo-na-reducao-da-desigualdade-diz-estudo.shtml" target="_blank" rel="noopener">Folha</a>
 
-### Pre-Doctoral Work
+## Pre-Doctoral Work
 
 - <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/meca.12423" target="_blank" rel="noopener">Kalecki Meets Schumpeter: The Decline of Competition in a Demand-led Dynamic Model</a>, with Rafael S. M. Ribeiro, <em>Metroeconomica</em>, 74:3, 584–605, 2023.
 
-- <a href="https://www.elgaronline.com/view/journals/roke/11/1/article-p10.xml" target="_blank" rel="noopener">Mind the wage gap: an empirical analysis of the impact of labour income inequality on economic growth</a>, with Rebecca Gramiscelli Hasparyk and Rafael S. M. Ribeiro, <em>Review of Keynesian Economics</em>, 11:1, 10–29, 2023.
+- <a href="https://www.elgaronline.com/view/journals/roke/11/1/article-p10.xml" target="_blank" rel="noopener">Mind the Wage Gap: An Empirical Analysis of the Impact of Labour Income Inequality on Economic Growth</a>, with Rebecca Gramiscelli Hasparyk and Rafael S. M. Ribeiro, <em>Review of Keynesian Economics</em>, 11:1, 10–29, 2023.
 
 - <a href="https://www.tandfonline.com/doi/full/10.1080/02692171.2022.2123910" target="_blank" rel="noopener">The Impact of Demand on Innovation and Research Intensity</a>, with João P. Romero and Arthur B. Cordeiro, <em>International Review of Applied Economics</em>, 37:2, 217–235, 2022.
 
