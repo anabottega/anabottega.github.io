@@ -9,9 +9,9 @@ classes: home-hero
   <img class="hero-photo" src="{{ '/assets/images/cv_photo_2025.jpg' | relative_url }}" alt="Ana Bottega">
 
   <div class="hero-bio">
-  <p> Hi, I’m Ana Bottega! I'm a public economist specializing in tax policy.</p>
-  <p> I am a PhD candidate in Economics at the University of São Paulo (USP). During my PhD, I have undertaken short research visits at Princeton and Cambridge, and was a visiting researcher at the Department of Economics at UC Berkeley for the 2024–2025 academic year.</p>
-  <p>I currently work as a consultant to the IDB/BR fiscal team and the UNDP/NY gender team. My experience with international organizations on tax policy includes serving as advisor to the international taxation agenda of the G20 Presidency at Brazil’s Federal Ministry of Finance in 2024.</p>
+  <p> Hi, I’m Ana Bottega! I’m an economist who specializes in public finance. I am interested in the design, implementation, and evaluation of public policies, with a focus on taxation.</p>
+  <p> I hold a Ph.D. in Economics from the University of São Paulo (USP). During my Ph.D., I undertook short research visits at Princeton and Cambridge and was a visiting researcher at the Department of Economics at UC Berkeley for the 2024–2025 academic year.</p>
+  <p> I’m a consultant to the Inter-American Development Bank’s fiscal team at the Brazil Country Office and to the UNDP gender team at headquarters. Previously, I was a technical advisor on the international taxation agenda of Brazil’s 2024 G20 Presidency.</p>
 
     <div class="link-boxes">
   <a class="box" href="mailto:anabottegalima@gmail.com">
@@ -32,17 +32,23 @@ classes: home-hero
 
 <div id="research"></div>
 
+## Working Papers 
+
+- [Four Decades of Consumption Inequality in Brazil, 1987–2018](https://ideas.repec.org/p/spa/wpaper/2026wpecon2.html){:target="_blank" rel="noopener"} (with Pedro Forquesato and Victoria Luiza Tosi)
+
 ## Work in Progress
 
-- Willingness to Pay for Tax Simplicity: Evidence from Norway's Pay-As-You-Earn Tax Scheme for Migrant Workers, with Qquillaccori García López — *slides available on request*
+- The Price of Simplicity: Evidence from Norway's Tax Scheme for Migrant Workers (with Qquillaccori García López and Luisa Wallossek) — *slides available on request*
 
-- Export-oriented Tax Reforms: Evidence from Brazil — *slides available on request*
+- Product-Level Export Tax Rebates and Trade Flows: Evidence from Brazil — *slides available on request*
+
+- Digital Transformation and Efficiency in Tax Administration: Evidence from Electronic Tax Dispute Resolution in Paraná, Brazil (with Anastasiya Yarygina and Renata Motta Café) — *in Portuguese*
 
 ## Policy Work 
 
 ### BRASMOD — Brazil’s tax-benefit microsimulation model
 
-I contributed to BRASMOD, a policy-oriented microsimulation model for Brazil used to assess tax-benefit reforms and distributional impacts.
+I coordinated the team that developed BRASMOD, a policy-oriented microsimulation model for Brazil used to assess tax-benefit reforms and distributional impacts.
 
 To access the model and the accompanying country report, visit the
 [BRASMOD project website](https://brasmod.github.io/brasmod_main/){:target="_blank" rel="noopener"}
@@ -60,11 +66,11 @@ and the
 
 - <a href="https://madeusp.com.br/publicacoes/artigos/quanto-fica-com-as-mulheres-negras-uma-analise-da-distribuicao-de-renda-no-brasil/" target="_blank" rel="noopener">Quanto Fica com as Mulheres Negras? Uma Análise da Distribuição de Renda no Brasil</a><br>
   with Isabela Bouza, Matias Cardomingo, Luiza Pires, and Fernanda Pereira, 2021, MADE/USP NPE n. 018.  
-  <em>Media coverage:</em> <a href="https://www1.folha.uol.com.br/mercado/2021/12/705-mil-homens-brancos-tem-renda-maior-que-a-de-todas-mulheres-negras.shtml" target="_blank" rel="noopener">Folha</a>, <a href="https://www.correiobraziliense.com.br/economia/2021/12/4970921-1-dos-homens-brancos-ricos-recebem-mais-que-todas-mulheres-negras-do-brasil.html" target="_blank" rel="noopener">Correio Braziliense</a>
+  <em>Media coverage:</em> <a href="https://www1.folha.uol.com.br/mercado/2021/12/705-mil-homens-brancos-tem-renda-maior-que-a-de-todas-mulheres-negras.shtml" target="_blank" rel="noopener">Folha de S. Paulo</a>, <a href="https://www.correiobraziliense.com.br/economia/2021/12/4970921-1-dos-homens-brancos-ricos-recebem-mais-que-todas-mulheres-negras-do-brasil.html" target="_blank" rel="noopener">Correio Braziliense</a>
 
 - <a href="https://madeusp.com.br/publicacoes/artigos/a-proposta-de-reforma-tributaria-para-o-imposto-de-renda-da-pessoa-fisica-e-seus-efeitos-na-desigualdade" target="_blank" rel="noopener">A Proposta de Reforma Tributária para o IRPF e seus Efeitos na Desigualdade</a><br>
   with Rodrigo Orair, Fernando Gaiger, Laura Carvalho, Matias Cardomingo, Rodrigo Fernandes, and Theo Ribas, 2021, MADE/USP NPE n. 015.  
-  <em>Media coverage:</em> <a href="https://www1.folha.uol.com.br/mercado/2021/09/reforma-do-ir-deve-ter-efeito-quase-nulo-na-reducao-da-desigualdade-diz-estudo.shtml" target="_blank" rel="noopener">Folha</a>
+  <em>Media coverage:</em> <a href="https://www1.folha.uol.com.br/mercado/2021/09/reforma-do-ir-deve-ter-efeito-quase-nulo-na-reducao-da-desigualdade-diz-estudo.shtml" target="_blank" rel="noopener">Folha de S. Paulo</a>
 
 ## Pre-Doctoral Work
 
